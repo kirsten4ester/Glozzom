@@ -176,17 +176,20 @@
             <p class="text-center">Check out our photos</p>
             <div class="row mb-4">
                 <div class="col-md-4">
-                    <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560">
+                    <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox"
+                        data-gallery="img-gallery" data-height="560" data-width="560">
                         <img src="https://source.unsplash.com/random/560x560" alt="random image" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="https://source.unsplash.com/random/561x561" data-toggle="lightbox" data-gallery="img-gallery" data-height="561" data-width="561">
+                    <a href="https://source.unsplash.com/random/561x561" data-toggle="lightbox"
+                        data-gallery="img-gallery" data-height="561" data-width="561">
                         <img src="https://source.unsplash.com/random/561x561" alt="random image" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="https://source.unsplash.com/random/562x562" data-toggle="lightbox" data-gallery="img-gallery" data-height="562" data-width="562">
+                    <a href="https://source.unsplash.com/random/562x562" data-toggle="lightbox"
+                        data-gallery="img-gallery" data-height="562" data-width="562">
                         <img src="https://source.unsplash.com/random/562x562" alt="random image" class="img-fluid">
                     </a>
                 </div>
@@ -194,23 +197,55 @@
 
             <div class="row mb-4">
                 <div class="col-md-4">
-                    <a href="https://source.unsplash.com/random/563x563" data-toggle="lightbox" data-gallery="img-gallery" data-height="563" data-width="563">
+                    <a href="https://source.unsplash.com/random/563x563" data-toggle="lightbox"
+                        data-gallery="img-gallery" data-height="563" data-width="563">
                         <img src="https://source.unsplash.com/random/563x563" alt="random image" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="https://source.unsplash.com/random/564x564" data-toggle="lightbox" data-gallery="img-gallery" data-height="564" data-width="564">
+                    <a href="https://source.unsplash.com/random/564x564" data-toggle="lightbox"
+                        data-gallery="img-gallery" data-height="564" data-width="564">
                         <img src="https://source.unsplash.com/random/564x564" alt="random image" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="https://source.unsplash.com/random/565x565" data-toggle="lightbox" data-gallery="img-gallery" data-height="565" data-width="565">
+                    <a href="https://source.unsplash.com/random/565x565" data-toggle="lightbox"
+                        data-gallery="img-gallery" data-height="565" data-width="565">
                         <img src="https://source.unsplash.com/random/565x565" alt="random image" class="img-fluid">
                     </a>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- NEWSLETTER -->
+    <section id="newsletter" class="text-center p-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Sign Up For Our Newsletter</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim amet nihil ipsam voluptatem animi.
+                        Veritatis, deserunt. Autem odio temporibus ipsam.</p>
+                    <form class="form-inline justify-content-center">
+                        <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Name">
+                        <input type="email" class="form-control mb-2 mr-2" placeholder="Enter Email">
+                        <button class="btn btn-primary mb-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="text-center p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright &copy; <span id="year"></span> Glozzom</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
@@ -229,8 +264,6 @@
             </div>
         </div>
     </div>
-
-
 
 
     <script src="http://code.jquery.com/jquery-3.5.1.min.js"
@@ -255,10 +288,10 @@
         });
 
         // lightbox init:
-        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-                event.preventDefault();
-                $(this).ekkoLightbox();
-            });
+        $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
 
         // video play
         $(function () {
